@@ -21,11 +21,21 @@ This dataset contains the following columns:
 ## Load the Data
 - Import required libraries (pandas, numpy, matplotlib, seaborn).
 - Load the CSV file into a DataFrame. [medical-charges]([URL](https://github.com/Owaboye/ml_predict_medical_charges/blob/main/medical-charges.csv))
-```df = pd.read_csv('medical-charges.csv') ```
+```
+df = pd.read_csv('medical-charges.csv')
+```
 
-### Data Inspection
+### Data Inspection: •	Check the shape, column names, data types.
 First, let's look at the data shape and types to understand its structure.
 ```
 df.head()
-df.info() 
+df.info()
+print(df.shape)
+print(df.columns)
 ```
+
+### Univariate Analysis
+Here we visualize the distribution of numeric variables like `age`, `bmi`, and `charges`.
+#### Why?
+This helps us to understand feature distributions, ranges, and potential outliers.
+
