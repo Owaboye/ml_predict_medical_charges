@@ -39,3 +39,6 @@ Here we visualize the distribution of numeric variables like `age`, `bmi`, and `
 #### Why?
 This helps us to understand feature distributions, ranges, and potential outliers.
 
+![Plot the distribution of target variable (charges) with a histogram](https://github.com/Owaboye/ml_predict_medical_charges/blob/main/Distribution%20of%20charges.png)
+
+
