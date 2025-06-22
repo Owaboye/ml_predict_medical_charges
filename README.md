@@ -19,6 +19,13 @@ This dataset contains the following columns:
 - `charges`: Medical insurance charges (target)
 
 ## Load the Data
-# Import required libraries (pandas, numpy, matplotlib, seaborn).
-# Load the CSV file into a DataFrame. [medical-charges](URL)
-# Display the first 5 rows.
+- Import required libraries (pandas, numpy, matplotlib, seaborn).
+- Load the CSV file into a DataFrame. [medical-charges]([URL](https://github.com/Owaboye/ml_predict_medical_charges/blob/main/medical-charges.csv))
+```df = pd.read_csv('medical-charges.csv') ```
+
+### Data Inspection
+First, let's look at the data shape and types to understand its structure.
+```
+df.head()
+df.info() 
+```
